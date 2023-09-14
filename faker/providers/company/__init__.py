@@ -12,7 +12,7 @@ class Provider(BaseProvider):
         "{{last_name}}, {{last_name}} and {{last_name}}",
     )
 
-    company_suffixes: ElementsType[str] = ("Inc", "and Sons", "LLC", "Group", "PLC", "Ltd")
+    company_suffixes: ElementsType[str] = ("Inc", "and Sons", "LLC", "Group", "PLC", "Ltd","LLP","Co.","LP","PLC")
 
     catch_phrase_words: Tuple[ElementsType[str], ...] = (
         (
