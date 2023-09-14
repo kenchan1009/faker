@@ -121,8 +121,7 @@ class Provider(CompanyProvider):
         "晶華酒店",
         "緯創資通",
         "鴻海精密",
-        "積體電路".
-
+        "積體電路",
 
     )
 
